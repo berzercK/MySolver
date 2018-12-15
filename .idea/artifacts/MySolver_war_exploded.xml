@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="MySolver:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/MySolver_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="MySolver/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="MySolver" />
+        </element>
+      </element>
+      <element id="archive" name="MySolver_war_exploded.war">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Решение квадратного уравнения</title>
+    <meta http-equiv="content-type"
+          content="text/html;charset=Windows-1251"/>
+    <meta http-equiv="Content-Language" content="ru"/>
+    <script src="resource/scripts/script.js"></script>
+    <link rel="stylesheet" type="text/css" href="resource/styles/styles.css" id="changeable_styles"/>
+</head>
+<body class="calcBody" onload="init();">
+<div align="center" id="main">
+    <h2><i>a*x&sup2; + b*x + c = 0</i></h2> <br>
+    <form class="inputForm" name="input">
+        a = <input name="a" type="text" size="1" onkeyup="checkInputA();">
+        b = <input name="b" type="text" size="1" onkeyup="checkInputB();">
+        c = <input name="c" type="text" size="1" onkeyup="checkInputC();">
+        <input type="button" onclick="ajaxFunction();" name="bConfirm" value=" Рассчитать " disabled="true">
+    </form>
+    <br>
+    <table class="calcTable" id="Table">
+        <thead>
+        <tr align="center">
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+            <td>x<sub>1</sub></td>
+            <td>x<sub>2</sub></td>
+        </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+</div>
+</body>
+</html>

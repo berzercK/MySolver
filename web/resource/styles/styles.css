@@ -1,0 +1,17 @@
+.calcTable {
+    border-collapse: collapse;
+    width: 750px;
+    text-align: center;
+}
+
+.calcTable tr:nth-child(odd) {
+    background: antiquewhite;
+}
+
+.calcTable tr:nth-child(even) {
+    background: ghostwhite;
+}
+
+.inputForm > input[type=text] {
+    background-color: red;
+}
